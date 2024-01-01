@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculating Nth Fibonacci in C</title>
+    <script src="fib.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      There is no output here. Look at the console.
+    </div>
+
+    <script>
+      WebAssembly.instantiateStreaming(fetch("fib.wasm"))
+      .then((mod) => {
+	  var result = Module._fib(10);
+	  console.log(result);
+      });
+    </script>
+  </body>
+</html>
