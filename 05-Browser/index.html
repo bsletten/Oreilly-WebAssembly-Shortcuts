@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Addition</title>    
+  </head>
+  <body>
+    <div class="container">
+      <h1>Adding Two Numbers from a WebAssembly Module</h1>
+      10 + 20 =  <span id="sum">?</span>.
+    </div>
+
+    <script>
+      WebAssembly.instantiateStreaming(fetch("add.wasm"))
+      .then( (mod) => {
+	  var add = mod.instance.exports.add;
+	  var sum = add(10,20);
+	  console.log(add(10,20));
+	  var sumEl = document.getElementById('sum');
+	  sumEl.innerText=sum;
+      });
+    </script>
+  </body>
+</html>
