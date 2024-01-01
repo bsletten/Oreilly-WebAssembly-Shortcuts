@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Shared Memory</title>    
+  </head>
+  <body>
+    You should see some Fibonacci numbers here:    
+    <div id="container">
+    </div>
+
+    <script>
+      var memory = new WebAssembly.Memory({initial:10, maximum:100});
+
+      var importObject = {
+        js: { mem: memory }
+      };      
+
+      WebAssembly.instantiateStreaming(fetch("fibonacci.wasm"), importObject )
+      .then((mod) => {
+	  var fibNum = 20;
+	  mod.instance.exports.fibonacci(fibNum);
+	  var i32 = new Uint32Array(memory.buffer);
+
+	  var container = document.getElementById('container');
+	  
+	  for(var i = 0; i < fibNum; i++) {
+	      container.innerText += `Fib[${i}]: ${i32[i]}\n`;
+	  }	  
+      });
+    </script>
+  </body>
+</html>
