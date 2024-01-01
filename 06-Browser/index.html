@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Addition and Logging</title>    
+  </head>
+  <body>
+    <div class="container">
+      There is no output here. Look at the console.
+    </div>
+
+    <script>
+      const importObject
+	    = { imports: { log_func: (arg) => console.log(arg) } };
+
+      WebAssembly.instantiateStreaming(fetch("logadd.wasm"), importObject )
+      .then((mod) => {
+	  var log_add = mod.instance.exports.log_add;
+	  log_add(10,20);
+      });
+    </script>
+  </body>
+</html>
