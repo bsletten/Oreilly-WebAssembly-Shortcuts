@@ -1,4 +1,4 @@
-# Converting WebAssembly Modules with the WebAssemblyBinaryToolkit (WABT)
+# Converting WebAssembly Modules with the WebAssembly Binary Toolkit (WABT)
 
 For this Shortcut, you are going to use a toolkit called the WebAssembly Binary Toolkit (WABT).
 
