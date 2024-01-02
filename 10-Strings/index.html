@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Strings</title>    
+  </head>
+  <body>
+    You should see some strings here:    
+    <div id="container">
+      <div>Japanese: <span id="japanese"></span></div>
+      <div>English: <span id="english"></span></div>
+    </div>
+
+    <script>
+      WebAssembly.instantiateStreaming(fetch("strings.wasm"))
+        .then((mod) => {
+	  var mem = mod.instance.exports.memory;
+
+	  var dv = new DataView(mem.buffer);
+	  var start = dv.getUint8(0);
+          var end = dv.getUint8(1);
+
+	  bytes = new Uint8Array(mem.buffer, start, end);
+	  string = new TextDecoder('utf8').decode(bytes);
+          var english = document.getElementById('english');
+	  english.innerText = string;
+	    
+	  start = dv.getUint8(2);
+	  end = dv.getUint8(3);
+
+	  var bytes = new Uint8Array(mem.buffer, start, end);
+	  var string = new TextDecoder('utf8').decode(bytes);
+          var japanese = document.getElementById('japanese');
+	  japanese.innerText = string;
+      });
+    </script>
+  </body>
+</html>
