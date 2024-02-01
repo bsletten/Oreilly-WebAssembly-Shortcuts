@@ -12,3 +12,5 @@ A repository for the O'Reilly WebAssembly Shortcuts Series.
 * [Generate WebAssembly Modules from AssemblyScript](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/08-AssemblyScript_Modules)
 * [Use WebAssembly to Share Memory Between Host and Modules](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/09-Memory)
 * [Use WebAssembly to Share Strings with Hosts and Modules](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/10-Strings)
+* [Call Rust Functions From JavaScript More Easily](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/11-Rust_From_JavaScript)
+
