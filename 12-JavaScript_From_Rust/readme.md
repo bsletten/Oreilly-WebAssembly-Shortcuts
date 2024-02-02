@@ -1,4 +1,4 @@
-# Call Rust Functions From JavaScript More Easily
+# Call JavaScript Functions From Rust More Easily
 
 You will need to install the wasm-bindgen and webpack tooling. You
 don't need webpack to use wasm-bindgen, but it keeps things simple for
@@ -17,11 +17,12 @@ I have already done the following for this Shortcut, but the next step
 would be to create your new project:
 
 ```console
-> cargo new rust-from-js --lib 
+> cargo new js-from-rust --lib 
 ```
 
-This creates a library-oriented Cargo project. I've copied the add.rs
-to src/lib.rs to keep things simple.
+This creates a library-oriented Cargo project. I've modified the
+src/lib.rs file as detailed in the Shortcut.
+
 
 To install webpack:
 
