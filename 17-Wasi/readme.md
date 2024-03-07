@@ -1,4 +1,4 @@
-# Use Wasi and WebAssembly to Make Applications Portable
+# Use WASI and WebAssembly to Make Applications Portable
 
 This is basically the same directory structure as the 16-File_CPP section. You can use either for the purposes of the Shortcut, but in case you did anything additional in the previous one, I wanted to give you a clean slate.
 
