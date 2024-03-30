@@ -15,4 +15,6 @@ A repository for the O'Reilly WebAssembly Shortcuts Series.
 * [Call Rust Functions From JavaScript More Easily](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/11-Rust_From_JavaScript)
 * [Call JavaScript Functions From Rust More Easily](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/12-JavaScript_From_Rust)
 * [Use wasm-bindgen to Call Rust from Deno](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/13-Deno_and_Rust)
+* [Use wasm-bindgen to Modify the DOM from Rust](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/14-Rust_DOM)
+* [Use wasm-bindgen to Call fetch() from Rust](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/15-Fetch)
 
