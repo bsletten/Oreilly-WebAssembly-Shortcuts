@@ -20,7 +20,7 @@ Or from pre-compiled releases:
 
 https://github.com/bytecodealliance/wasmtime/releases
 
-You are may also want to use a toolkit called the WebAssembly Binary Toolkit (WABT).
+You may also want to use a toolkit called the WebAssembly Binary Toolkit (WABT).
 
 It's GitHub repository is here: https://github.com/WebAssembly/wabt
 
