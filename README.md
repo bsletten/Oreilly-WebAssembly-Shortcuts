@@ -17,4 +17,8 @@ A repository for the O'Reilly WebAssembly Shortcuts Series.
 * [Use wasm-bindgen to Call Rust from Deno](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/13-Deno_and_Rust)
 * [Use wasm-bindgen to Modify the DOM from Rust](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/14-Rust_DOM)
 * [Use wasm-bindgen to Call fetch() from Rust](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/15-Fetch)
+* [Use Emscripten and WebAssembly to Do File I/O in the Browser](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/16-Files_CPP)
+* [Use WASI and WebAssembly to Make Applications Portable](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/17-Wasi)
+* [Use WASI and WebAssembly to Make Applications More Secure](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/18-Wasi)
+)
 
