@@ -20,5 +20,5 @@ A repository for the O'Reilly WebAssembly Shortcuts Series.
 * [Use Emscripten and WebAssembly to Do File I/O in the Browser](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/16-Files_CPP)
 * [Use WASI and WebAssembly to Make Applications Portable](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/17-Wasi)
 * [Use WASI and WebAssembly to Make Applications More Secure](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/18-Wasi)
-)
+
 
