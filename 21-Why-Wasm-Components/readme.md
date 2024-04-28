@@ -1,4 +1,4 @@
-# Use WASI to Create Reusable WebAssembly Components
+# Understand the Need for WebAssembly Components
 
 In order to work with the files in this Shortcut, you will need a
 [Rust](https://www.rust-lang.org) toolchain installed. The easiest way
