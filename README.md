@@ -22,3 +22,5 @@ A repository for the O'Reilly WebAssembly Shortcuts Series.
 * [Use WASI and WebAssembly to Make Applications More Secure](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/18-Wasi)
 * [Explore Using WASI and WebAssembly with Rust to Produce Safe and Portable Code](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/19-Wasi)
 * [Use wasm-tools to Investigate and Manipulate WebAssembly Artifacts](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/20-Wasm-Tools)
+* [Understand the Need for WebAssembly Components](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/21-Why-Wasm-Components)
+* [Create WebAssembly Components with wasm-tools](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/22-Wasm-Components-Basic)
