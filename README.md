@@ -24,3 +24,5 @@ A repository for the O'Reilly WebAssembly Shortcuts Series.
 * [Use wasm-tools to Investigate and Manipulate WebAssembly Artifacts](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/20-Wasm-Tools)
 * [Understand the Need for WebAssembly Components](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/21-Why-Wasm-Components)
 * [Create WebAssembly Components with wasm-tools](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/22-Wasm-Components-Basic)
+* [Create WebAssembly Components with Rust’s cargo component](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/23-Wasm-Components-Rust)
+* [Create WebAssembly Components with JavaScript and jco](https://github.com/bsletten/Oreilly-WebAssembly-Shortcuts/tree/main/24-Wasm-Components-JS)
